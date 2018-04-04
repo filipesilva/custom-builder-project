@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "MyBuilderSchema",
+  "title": "Custom builder for Architect.",
+  "type": "object",
+  "description": "Builder options",
+  "properties": {
+    "requiredOption": {
+      "type": "number",
+      "description": "A required option"
+    },
+    "optionalOption": {
+      "type": "boolean",
+      "description": "A non-required option with a default",
+      "default": false
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "requiredOption"
+  ]
+}

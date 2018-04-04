@@ -7,6 +7,12 @@
       "root": "",
       "projectType": "application",
       "architect": {
+        "custom-target": {
+          "builder": "./custom-builder:my-builder",
+          "options": {
+            "requiredOption": 42
+          }
+        },
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {

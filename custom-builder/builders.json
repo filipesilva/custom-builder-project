@@ -1,0 +1,10 @@
+{
+  "$schema": "../src/builders-schema.json",
+  "builders": {
+    "my-builder": {
+      "class": "./my-builder/index.js",
+      "schema": "./my-builder/schema.json",
+      "description": "My builder."
+    }
+  }
+}
